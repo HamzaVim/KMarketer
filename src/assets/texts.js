@@ -7,7 +7,7 @@ import img5 from './featureIcons/icn-lg-5.svg'
 import client1 from './Client-1.png'
 import client2 from './Client-2.png'
 import client3 from './Client-3.png'
-import me from './teamImage/me.jpg'
+import team0 from './teamImage/team-0.png'
 import team1 from './teamImage/team-1.png'
 import team2 from './teamImage/team-2.png'
 
@@ -79,19 +79,19 @@ export const comments = [
 
 export const team = [
     {
-        id:1,
-        name: 'Hamza Muhammad',
+        id: 1,
+        name: 'Ben Jonson',
         position: 'CEO',
-        img: me
+        img: team0
     },
     {
-        id:2,
+        id: 2,
         name: 'Ashley Fletcher',
         position: 'Consultant',
         img: team1
     },
     {
-        id:3,
+        id: 3,
         name: 'Avie Beaton',
         position: 'CO Founder',
         img: team2
