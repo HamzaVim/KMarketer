@@ -15,9 +15,15 @@ const OurTeam = ({ Twitter, Instagram, Facebook }) => {
         <p className='font-bold text-h5'>{employe.name}</p>
         <p className='pt-1 pb-2 text-h6 text-secondTC'>{employe.position}</p>
         <div className='flex justify-center gap-5'>
-          <Facebook className='cursor-pointer text-secondary1 w-7 h-7' />
-          <Instagram className='cursor-pointer text-secondary1 w-7 h-7' />
-          <Twitter className='cursor-pointer text-secondary1 w-7 h-7' />
+          <button>
+            <Facebook className='cursor-pointer text-secondary1 w-7 h-7' />
+          </button>
+          <button>
+            <Instagram className='cursor-pointer text-secondary1 w-7 h-7' />
+          </button>
+          <button>
+            <Twitter className='cursor-pointer text-secondary1 w-7 h-7' />
+          </button>
         </div>
       </div>
     );

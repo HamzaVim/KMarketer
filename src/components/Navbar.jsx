@@ -110,11 +110,10 @@ const Navbar = () => {
               <button>
                 <img src={shopping} alt='shopping' className='w-[20px]' />
               </button>
-              <button>
+              <button onClick={() => setToggle(false)}>
                 <img
                   src={close}
                   className='w-[20px]'
-                  onClick={() => setToggle(false)}
                 />
               </button>
             </div>
